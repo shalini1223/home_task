@@ -9,7 +9,7 @@ const MongoStore = require('connect-mongoose-only')(session);
 
 let AWS=require('aws-sdk');
 let secretManager = new AWS.secretManager({
-    region: 'us-east-1',
+    region: 'east-1',
 });
 (async function getSecretValues(){
     try{
